@@ -44,10 +44,17 @@ a {
   color: var(--link-color);
 }
 
-/* ### TODO ### Styles for other HTML elements */
+input {
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
 
-/* ... your code here ... */
-
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+}
 
 /* Grid styles (no changes required) */
 
