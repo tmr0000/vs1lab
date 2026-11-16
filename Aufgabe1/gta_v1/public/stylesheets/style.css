@@ -132,6 +132,16 @@ a {
 /* ... your code here ... */
 
 
-/* ### TODO ### Media Queries */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
 
-/* ... your code here ... */
+  .col-4,
+  .col-8,
+  .col-5,
+  .col-7 {
+    width: 100%;
+  }
+
+}

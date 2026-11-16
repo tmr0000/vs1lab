@@ -226,7 +226,7 @@ Zur Übersicht folgen noch mal alle Anforderungen in kompakter Form als Checklis
   - [ ] Discovery Ergebnisliste mit farbigen Boxen
 - [ ] Responsives Verhalten
   - [x] Spalten relativ zur Bildschirmbreite anpassen
-  - [ ] Ab min. Bildschirmbreite Spalten untereinander klappen
-    - [ ] Mit Media Query realisieren 
+  - [x] Ab min. Bildschirmbreite Spalten untereinander klappen
+    - [x] Mit Media Query realisieren 
 
 
