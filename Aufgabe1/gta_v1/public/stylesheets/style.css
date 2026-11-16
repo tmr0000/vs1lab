@@ -117,9 +117,13 @@ a {
 /* ... your code here ... */
 
 
-/* ### TODO ### Styles for Tagging component */
+.tagging label {
+  display: block;
+}
 
-/* ... your code here ... */
+.tagging input {
+  display: block;
+}
 
 
 /* ### TODO ### Styles for Discovery component */

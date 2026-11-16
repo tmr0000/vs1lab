@@ -221,7 +221,7 @@ Zur Übersicht folgen noch mal alle Anforderungen in kompakter Form als Checklis
   - [x] Klassen `.row` und `.col-x` verwenden
 - [ ] Seitengestaltung
   - [ ] Farbig abgesetzte Header- und Footer-Bereiche
-  - [ ] Vertikale Anordnung der Eingaben im Tagging Formular
+  - [x] Vertikale Anordnung der Eingaben im Tagging Formular
   - [ ] Größere Boxen für die Eingaben aller Formulare
   - [ ] Discovery Ergebnisliste mit farbigen Boxen
 - [x] Responsives Verhalten
