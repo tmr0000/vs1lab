@@ -113,11 +113,17 @@ input[type="number"] {
   width: calc(100% - 1rem);
 }
 
+.header {
+  background-color: #24445b;
+  color: white;
+  padding: 16px;
+}
 
-/* ### TODO ### Styles for Header Component */
-
-/* ... your code here ... */
-
+.header__navigation a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
 
 /* ### TODO ### Styles for Main Component */
 
@@ -145,11 +151,12 @@ input[type="number"] {
   border-radius: 5px;
 }
 
-
-/* ### TODO ### Styles for Footer Component */
-
-/* ... your code here ... */
-
+.footer {
+  background-color: #24445b;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
 
 @media screen and (max-width: 600px) {
   .row {
