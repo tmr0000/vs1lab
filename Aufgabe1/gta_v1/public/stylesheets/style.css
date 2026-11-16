@@ -143,10 +143,11 @@ input[type="number"] {
   object-fit: contain;
 }
 
-/* ### TODO ### Styles for Main Component */
-
-/* ... your code here ... */
-
+.main {
+  flex: 1;
+  padding: 16px;
+  background-color: var(--background-color);
+}
 
 .tagging label {
   display: block;
