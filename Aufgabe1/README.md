@@ -225,7 +225,7 @@ Zur Übersicht folgen noch mal alle Anforderungen in kompakter Form als Checklis
   - [ ] Größere Boxen für die Eingaben aller Formulare
   - [ ] Discovery Ergebnisliste mit farbigen Boxen
 - [ ] Responsives Verhalten
-  - [ ] Spalten relativ zur Bildschirmbreite anpassen
+  - [x] Spalten relativ zur Bildschirmbreite anpassen
   - [ ] Ab min. Bildschirmbreite Spalten untereinander klappen
     - [ ] Mit Media Query realisieren 
 
