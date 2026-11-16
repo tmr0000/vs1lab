@@ -133,9 +133,17 @@ input[type="number"] {
 }
 
 
-/* ### TODO ### Styles for Discovery component */
+.discovery__results {
+  list-style: none;
+}
 
-/* ... your code here ... */
+.discovery__results li {
+  background-color: #5588ff;
+  border: 1px solid #eeeeee;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
 
 
 /* ### TODO ### Styles for Footer Component */

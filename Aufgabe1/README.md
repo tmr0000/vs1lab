@@ -223,7 +223,7 @@ Zur Übersicht folgen noch mal alle Anforderungen in kompakter Form als Checklis
   - [ ] Farbig abgesetzte Header- und Footer-Bereiche
   - [x] Vertikale Anordnung der Eingaben im Tagging Formular
   - [x] Größere Boxen für die Eingaben aller Formulare
-  - [ ] Discovery Ergebnisliste mit farbigen Boxen
+  - [x] Discovery Ergebnisliste mit farbigen Boxen
 - [x] Responsives Verhalten
   - [x] Spalten relativ zur Bildschirmbreite anpassen
   - [x] Ab min. Bildschirmbreite Spalten untereinander klappen
