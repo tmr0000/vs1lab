@@ -224,7 +224,7 @@ Zur Übersicht folgen noch mal alle Anforderungen in kompakter Form als Checklis
   - [ ] Vertikale Anordnung der Eingaben im Tagging Formular
   - [ ] Größere Boxen für die Eingaben aller Formulare
   - [ ] Discovery Ergebnisliste mit farbigen Boxen
-- [ ] Responsives Verhalten
+- [x] Responsives Verhalten
   - [x] Spalten relativ zur Bildschirmbreite anpassen
   - [x] Ab min. Bildschirmbreite Spalten untereinander klappen
     - [x] Mit Media Query realisieren 
