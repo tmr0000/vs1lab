@@ -217,8 +217,8 @@ Zur Übersicht folgen noch mal alle Anforderungen in kompakter Form als Checklis
 
 ### Teil B: Seite mit CSS3 gestalten
 
-- [ ] Layout als verschachteltes zweispaltiges Grid realisieren
-  - [ ] Klassen `.row` und `.col-x` verwenden
+- [x] Layout als verschachteltes zweispaltiges Grid realisieren
+  - [x] Klassen `.row` und `.col-x` verwenden
 - [ ] Seitengestaltung
   - [ ] Farbig abgesetzte Header- und Footer-Bereiche
   - [ ] Vertikale Anordnung der Eingaben im Tagging Formular
