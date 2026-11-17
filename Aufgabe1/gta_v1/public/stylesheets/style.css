@@ -190,6 +190,19 @@ input[type="submit"]:hover {
   border-radius: 5px;
 }
 
+.discovery__map {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.discovery__map img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 600px;
+}
+
 .footer {
   background-color: #24445b;
   color: white;
