@@ -60,6 +60,7 @@ input[type="text"],
 input[type="number"] {
   width: 100%;
 }
+
 input[type="submit"] {
   background-color: #234862;
   color: white;
@@ -167,13 +168,15 @@ input[type="submit"]:hover {
   background-color: var(--background-color);
 }
 
-.tagging label {
+.tagging label,
+.discovery label {
   display: block;
   margin-top: 16px;
   margin-bottom: 5px;
 }
 
-.tagging input {
+.tagging input,
+.discovery input {
   display: block;
   margin-bottom: 16px;
 }
