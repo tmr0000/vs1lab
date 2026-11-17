@@ -195,9 +195,9 @@ Zur Übersicht folgen noch mal alle Anforderungen in kompakter Form als Checklis
 ### Teil 0: Teamentwicklung über GitHub
 - [x] Ein Fork des Repositories ist angelegt und Gruppenmitglieder sind als Collaborators eingeladen
 - [x] Jedes Mitglied der Gruppe hat einen eigenen Branch für eine (Unter-)Aufgabe erstellt
-- [ ] Für jeden Branch existiert ein Pull Request gegen den Default-Branch des Forks (master)
-- [ ] Mindestens ein Review-Kommentar oder ein Approval je PR ist vorhanden
-- [ ] Jeder PR ist gemerged
+- [x] Für jeden Branch existiert ein Pull Request gegen den Default-Branch des Forks (master)
+- [x] Mindestens ein Review-Kommentar oder ein Approval je PR ist vorhanden
+- [x] Jeder PR ist gemerged
 
 ### Teil A: Formulare fertigstellen
 
