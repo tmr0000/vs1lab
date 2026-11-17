@@ -44,10 +44,36 @@ a {
   color: var(--link-color);
 }
 
-/* ### TODO ### Styles for other HTML elements */
+input {
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
 
-/* ... your code here ... */
+input:focus {
+  outline: none;
+  border-color: #3991ce;
+}
 
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #234862;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #3f7294;
+}
 
 /* Grid styles (no changes required) */
 
@@ -106,32 +132,97 @@ a {
   width: calc(100% - 1rem);
 }
 
+.header {
+  background-color: #24445b;
+  color: white;
+  padding: 16px;
 
-/* ### TODO ### Styles for Header Component */
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
-/* ... your code here ... */
+.header__navigation a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
 
+.header__title {
+  font-size: 24px;
+}
 
-/* ### TODO ### Styles for Main Component */
+.header__navigation {
+  margin-left: auto;
+}
 
-/* ... your code here ... */
+.header__image {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
 
+.main {
+  flex: 1;
+  padding: 16px;
+  background-color: var(--background-color);
+}
 
-/* ### TODO ### Styles for Tagging component */
+.tagging label,
+.discovery label {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 5px;
+}
 
-/* ... your code here ... */
+.tagging input,
+.discovery input {
+  display: block;
+  margin-bottom: 16px;
+}
 
+.discovery__results {
+  list-style: none;
+}
 
-/* ### TODO ### Styles for Discovery component */
+.discovery__results li {
+  background-color: #4a6f93;
+  border: 1px solid #eeeeee;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
 
-/* ... your code here ... */
+.discovery__map {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
 
+.discovery__map img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 600px;
+}
 
-/* ### TODO ### Styles for Footer Component */
+.footer {
+  background-color: #24445b;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
 
-/* ... your code here ... */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
 
+  .col-4,
+  .col-8,
+  .col-5,
+  .col-7 {
+    width: 100%;
+  }
 
-/* ### TODO ### Media Queries */
-
-/* ... your code here ... */
+}
