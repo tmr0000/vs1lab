@@ -51,6 +51,11 @@ input {
   border-radius: 5px;
 }
 
+input:focus {
+  outline: none;
+  border-color: #3991ce;
+}
+
 input[type="text"],
 input[type="number"] {
   width: 100%;
